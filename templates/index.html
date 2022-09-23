@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<body>
+    <h1> Welcome to HOME PAGE click on REGISTER
+</body>
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} {% load static %}
+
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"> 
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+        <title>This is title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head> 
+    <body>
+        <div class = "container">
+            <nav class= "nav">
+                <a class = "nav-link" href= " ">HOME</a></li>
+                <a class = "nav-link" href= " ">ABOUT</a></li>
+                <a class = "nav-link" href= " ">SERVICES</a></li>
+                <a class = "nav-link " href= " ">CONTACT US</a></li>
+                <a class = "nav-link" href= " {% url 'register'%} ">REGISTER</a></li>
+            </nav>
+
+        </div>
+                <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+        
+                        
+        <script src = "{% static 'js/jquery.js' %}"></script>
+        <script src ="{% static 'js/bootstrap.min.js' %}" ></script> 
+
+
+
+    </body>
+</html> {% endcomment %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} 
+
+
+
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"> 
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+        <title>Register</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+        <div class="mb-3">
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">FirstName</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+              </div>
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          
+        
+                         
+        <script src = "{% static 'js/jquery.js' %}"></script>
+        <script src ="{% static 'js/bootstrap.min.js' %}" ></script> 
+    
+    </body>
+</html>
+
+ {% endcomment %}

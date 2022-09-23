@@ -1,0 +1,35 @@
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"> 
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+        <title>This is title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head> 
+    <body>
+        <div class = "container">
+            <nav class= "nav">
+                <a class = "nav-link" href= " ">HOME</a></li>
+                <a class = "nav-link" href= " ">ABOUT</a></li>
+                <a class = "nav-link" href= " ">SERVICES</a></li>
+                <a class = "nav-link " href= " ">CONTACT US</a></li>
+                <a class = "nav-link" href= " {% url 'register'%} ">REGISTER</a></li>
+            </nav>
+
+        </div>
+        
+                        
+        <script src = "{% static 'js/jquery.js' %}"></script>
+        <script src ="{% static 'js/bootstrap.min.js' %}" ></script> 
+
+
+ 
+    </body>
+</html>
